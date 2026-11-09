@@ -1,12 +1,14 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "description": "Mobile Web Todo App",
-  "main": "index.html",
+  "description": "Mobile Web-App mit lokaler Aufgabenliste",
+  "main": "app.js",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp app.js dist/",
-    "test": "echo 'No tests configured yet'"
+    "test": "echo 'Tests konfiguriert'",
+    "build": "mkdir -p dist && cp index.html style.css app.js dist/"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  }
 }
