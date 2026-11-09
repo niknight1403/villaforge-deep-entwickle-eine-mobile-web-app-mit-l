@@ -1,0 +1,12 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Mobile Web Todo App",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp app.js dist/",
+    "test": "echo 'No tests configured yet'"
+  },
+  "author": "",
+  "license": "ISC"
+}
